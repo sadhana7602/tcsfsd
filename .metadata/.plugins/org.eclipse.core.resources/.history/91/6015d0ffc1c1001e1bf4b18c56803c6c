@@ -1,0 +1,37 @@
+package weeklyassessment1;
+
+import java.util.ArrayList;
+
+public class PerformTransactions {
+ 
+	public static void main(String[] args) {
+		Investor i1= new Investor(1,"abc","chennai",50000,"shares");
+		Investor i2= new Investor(2,"def","cbe",10000,"bonds");
+		Investor i3= new Investor(3,"yuj","ooty",70000,"deposit");
+		Investor i4= new Investor(4,"nkjh","delhi",60000,"deposit");
+		Investor i5= new Investor(5,"def","kovai",1090,"bonds");
+		ArrayList<Investor> inv = new ArrayList<>();
+		inv.add(i5);
+		inv.add(i4);
+		inv.add(i3);
+		inv.add(i2);
+		inv.add(i1);
+		
+
+		Transaction t1= new Transaction(101,"01-89",5000,1);
+		Transaction t2= new Transaction(102,"02-89",7000,2);
+		Transaction t3= new Transaction(103,"03-89",1000,3);
+		Transaction t4= new Transaction(104,"04-89",25000,4);
+		Transaction t5= new Transaction(105,"05-89",85000,5);
+		CacheTransactions it= new CacheTransactions();
+		it.addTransaction(t1);
+		it.addTransaction(t2);
+		it.addTransaction(t3);
+		it.addTransaction(t4);
+		it.addTransaction(t5);
+		//it.showTransaction();
+
+		System.out.println(it.updateTransaction(170000, 101));
+		System.out.println(it.showGivenTransaction(101));
+	}
+}

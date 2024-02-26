@@ -1,0 +1,5 @@
+spring.application.name= HelloClient
+server.port=8095
+  management.endpoints.web.exposure.include=*
+management.endpoint.health.show-details=always
+management.endpoints.jmx.exposure.include=*

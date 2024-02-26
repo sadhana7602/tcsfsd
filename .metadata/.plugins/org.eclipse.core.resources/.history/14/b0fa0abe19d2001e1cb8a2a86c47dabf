@@ -1,0 +1,5 @@
+package com.tcs.springsecurity.repository;
+
+public interface UserRepository implements JpaRepository<User,int>{
+
+}

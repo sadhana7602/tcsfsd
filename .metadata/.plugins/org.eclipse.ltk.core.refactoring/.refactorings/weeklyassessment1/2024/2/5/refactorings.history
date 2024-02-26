@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;weeklyassessment1.InvestmentTransactions&apos; to &apos;CacheTransactions&apos;&#x0A;- Original project: &apos;weeklyassessment1&apos;&#x0A;- Original element: &apos;weeklyassessment1.InvestmentTransactions&apos;&#x0A;- Renamed element: &apos;weeklyassessment1.CacheTransactions&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;InvestmentTransactions&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;weeklyassessment1{InvestmentTransactions.java[InvestmentTransactions" matchStrategy="1" name="CacheTransactions" qualified="false" references="true" similarDeclarations="false" stamp="1706872892834" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,5 @@
+package com.tcs.service.resource;
+
+public class HelloService {
+
+}

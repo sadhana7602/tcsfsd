@@ -1,0 +1,5 @@
+package com.tcs.project.repository;
+
+public class QueryRepository {
+
+}

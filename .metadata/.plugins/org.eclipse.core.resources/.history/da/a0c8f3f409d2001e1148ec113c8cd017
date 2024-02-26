@@ -1,0 +1,5 @@
+package com.tcs.springsecurity.config;
+
+public class EmpSecurityConfig {
+
+}

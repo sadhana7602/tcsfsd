@@ -1,0 +1,5 @@
+package com.tcs.bootsecurity.jwt.util;
+
+public class JwtUtil {
+
+}

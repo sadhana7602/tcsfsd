@@ -1,0 +1,42 @@
+package com.tcs.project.services;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.tcs.project.repository.PolicyProductRepository;
+import com.tcs.project.resource.PolicyProduct;
+
+@Service
+public class PolicyProductService {
+	
+	@Autowired
+	PolicyProductRepository policyproductrepository;
+	
+	public PolicyProduct getPolicyProductById(Integer policyId) {
+		// TODO Auto-generated method stub
+		Optional<PolicyProduct> policy = policyproductrepository.findById(policyId);
+		return  policy.get();
+	}
+	
+    public PolicyProduct createPolicyProduct(PolicyProduct policyproduct) {
+    	return (PolicyProduct) policyproductrepository.save(policyproduct);
+    	
+    }
+    public PolicyProduct update(PolicyProduct policyproduct) {
+    	
+    	Optional<ProductProduct> optional= policyproductrepository.findById(policyproduct.getPolicyId());
+    	PolicyProduct tempPolicy= optional.get();
+    	tempPolicy.setDescription(policyproduct.getDescription());
+    	tempPolicy.setPrice(policy.getPrice());
+    	
+    	return policyproductrepository.save(tempPolicy);
+    }
+	
+    
+	
+	
+	
+
+}

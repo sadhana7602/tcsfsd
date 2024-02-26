@@ -1,0 +1,13 @@
+package com.tcs.ioc;
+ 
+ 
+public class TestBeans {
+	public static void main(String[] args) {
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext();
+		Object obj = context.getBean("b");
+		B b = (B)obj;
+		b.other();
+
+	}
+ 
+}

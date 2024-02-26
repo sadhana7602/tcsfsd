@@ -1,0 +1,5 @@
+package com.tcs.project.services;
+
+public class QueryService {
+
+}

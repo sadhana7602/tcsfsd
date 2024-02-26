@@ -1,0 +1,7 @@
+package com.tcs.oops.Inheritance;
+
+public class Bond extends InvestmentInstrument {
+	
+	
+
+}

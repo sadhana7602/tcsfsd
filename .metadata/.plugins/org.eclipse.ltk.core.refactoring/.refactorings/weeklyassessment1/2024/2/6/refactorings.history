@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Transaction.java&apos; to &apos;Weeklyassignment-2/src/main/java/com.tcs.hibernate&apos;&#x0A;- Original project: &apos;weeklyassessment1&apos;&#x0A;- Destination element: &apos;Weeklyassignment-2/src/main/java/com.tcs.hibernate&apos;&#x0A;- Original element: &apos;weeklyassessment1.Transaction.java&apos;" description="Copy compilation unit" destination="=Weeklyassignment-2/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.tcs.hibernate" element1="/src&lt;weeklyassessment1{Transaction.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1707473160134" units="1" version="1.0"/>
+</session>

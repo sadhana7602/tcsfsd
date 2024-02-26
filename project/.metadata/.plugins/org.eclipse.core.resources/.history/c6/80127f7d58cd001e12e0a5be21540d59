@@ -1,0 +1,25 @@
+package com.tcs.services;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.tcs.repository.CustomerRepository;
+import com.tcs.resource.Customer;
+
+@Service
+public class CustomerService {
+	@Autowired
+	CustomerRepository customerrepository;
+	
+	public Customer getCustomerById(int id) {
+		
+		Optional<Customer> customer = customerrepository.findById(id);
+		return customer.get();
+	}
+	
+	
+	
+
+}

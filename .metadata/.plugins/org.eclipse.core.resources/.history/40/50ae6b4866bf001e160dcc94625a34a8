@@ -1,0 +1,8 @@
+package com.tcs.oops.Inheritance;
+
+public class InvestmentInstrument {
+	int iid;//share,bond,deposit
+	
+	
+
+}

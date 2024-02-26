@@ -1,0 +1,6 @@
+package com.tcs.springsecurity.resource;
+
+public class EmployeeResource {
+
+	
+}

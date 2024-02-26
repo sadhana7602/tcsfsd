@@ -1,0 +1,5 @@
+package com.tcs.springsecurity.model;
+
+public class User {
+
+}

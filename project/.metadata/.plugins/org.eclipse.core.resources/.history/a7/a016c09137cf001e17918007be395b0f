@@ -1,0 +1,19 @@
+package com.tcs.project.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.tcs.project.repository.PolicyProductRepository;
+
+@Service
+public class PolicyProductService {
+	
+	@Autowired
+	PolicyProductRepository policyproductrepository;
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,27 @@
+package com.tcs.resources;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.tcs.services.CustomerService;
+
+@RestController
+@RequestMapping("/customer")
+public class CustomerResource {
+	
+	@Autowired
+	CustomerService customerservice;
+	
+	
+	@PostMapping("/addcustomer")
+	public ResponseEntity<Client> registerClientHandler(@Valid @RequestBody Client client) throws ClientException {
+		client.setPassword(passwordEncoder.encode(client.getPassword()));
+		return new ResponseEntity<Client>(clientService.registerClient(client), HttpStatus.CREATED);
+	}
+	
+	
+	
+	
+
+}

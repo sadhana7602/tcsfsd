@@ -1,0 +1,5 @@
+package com.tcs.bootsecurity.jwt.service;
+
+public class MyUserDetailsService {
+
+}

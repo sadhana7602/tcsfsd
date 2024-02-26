@@ -1,0 +1,34 @@
+package com.tcs.hibernate;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+public class TestUpdate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Configuration configure =new Configuration();
+		configure =configure.configure();
+		SessionFactory factory=configure.buildSessionFactory();
+		System.out.println(factory);
+		Session session =factory.openSession();
+		System.out.println(session);
+		Transaction transaction =session.beginTransaction();
+		
+		Investor2 inv =session.get(Investor2.class, 1);
+		
+		Transaction2 trn=session.get(Transaction2.class, 1);
+		double bal=inv.amount-trn.tranAmount;
+		inv.setAmount(bal);
+		System.out.println(inv);
+		session.update(inv);
+		
+		
+		transaction.commit();
+		session.close();
+
+	}
+
+}

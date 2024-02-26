@@ -1,0 +1,21 @@
+package com.tcs.service.resource;
+
+public class HelloService {
+	@Value("name")
+	String str;
+	
+	@Autowired
+	Environment envirinment;
+	
+	@GetMapping
+	public String Welcome() {
+		String port= environment.getProperty("server.port");
+		return "Programming Microservice @ " +port;
+	}
+	
+	@GetMapping
+	public String status() {
+		return "up and Running->>> ";
+	}
+
+}

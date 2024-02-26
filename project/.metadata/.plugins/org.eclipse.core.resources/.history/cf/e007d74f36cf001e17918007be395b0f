@@ -1,0 +1,16 @@
+package com.tcs.project.services;
+
+import org.springframework.stereotype.Service;
+
+import com.tcs.project.repository.PolicyProductRepository;
+
+@Service
+public class PolicyProductService {
+	
+	PolicyProductRepository policyproductrepository;
+	
+	
+	
+	
+
+}

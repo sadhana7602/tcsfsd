@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.tcs.training.Arrays&apos; to &apos;TestArrays&apos;&#x0A;- Original project: &apos;Day1CoreJava&apos;&#x0A;- Original element: &apos;com.tcs.training.Arrays&apos;&#x0A;- Renamed element: &apos;com.tcs.training.TestArrays&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Arrays&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.tcs.training{Arrays.java[Arrays" matchStrategy="1" name="TestArrays" qualified="false" references="true" similarDeclarations="false" stamp="1706528860855" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,39 @@
+package com.tcs.oops.Inheritance;
+
+public class InvestmentInstrument {
+	 private int iiid;//share,bond,deposit
+	private String title;
+	private String type;
+	private double fund;
+	public int getIiid() {
+		return iiid;
+	}
+	public void setIiid(int iiid) {
+		this.iiid = iiid;
+	}
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	public String getType() {
+		return type;
+	}
+	public void setType(String type) {
+		this.type = type;
+	}
+	public double getFund() {
+		return fund;
+	}
+	public void setFund(double fund) {
+		this.fund = fund;
+	}
+	
+	
+	
+	
+	
+	
+
+}

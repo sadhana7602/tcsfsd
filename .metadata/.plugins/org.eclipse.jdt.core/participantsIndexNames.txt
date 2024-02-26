@@ -1,0 +1,13 @@
+INDEX VERSION 1.134
+/home/labuser/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2566270450.index
+/day9-spring-mvc1/src/main/java
+/home/labuser/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3009405628.index
+/day10-spring/src/main/java
+/home/labuser/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1583644083.index
+/day9-spring-mvc1/src/main/java
+/home/labuser/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3281707504.index
+/day6-servlets-webapp/src/main/resources
+/home/labuser/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1296292578.index
+/Servletwebapp/src/main/java
+/home/labuser/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1487302098.index
+/day10-spring/src/main/resources

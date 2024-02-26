@@ -1,0 +1,5 @@
+package com.tcs.restexception;
+
+public class MyRestExceptionHandling {
+
+}

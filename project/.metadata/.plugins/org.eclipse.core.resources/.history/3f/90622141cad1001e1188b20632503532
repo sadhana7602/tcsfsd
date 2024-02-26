@@ -1,0 +1,5 @@
+package com.tcs.project.resources;
+
+public class QueryResource {
+
+}

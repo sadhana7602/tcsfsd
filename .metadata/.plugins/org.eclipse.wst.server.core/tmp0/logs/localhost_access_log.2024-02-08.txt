@@ -1,0 +1,12 @@
+127.0.0.1 - - [08/Feb/2024:07:38:05 +0000] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [08/Feb/2024:07:38:27 +0000] "GET /day9-spring-mvc1/ HTTP/1.1" 200 52
+127.0.0.1 - - [08/Feb/2024:07:39:01 +0000] "GET /day9-spring-mvc1/do/go HTTP/1.1" 404 682
+127.0.0.1 - - [08/Feb/2024:07:42:11 +0000] "GET /day9-spring-mvc1/do/go HTTP/1.1" 404 682
+127.0.0.1 - - [08/Feb/2024:07:42:12 +0000] "GET /day9-spring-mvc1/do/go HTTP/1.1" 404 682
+127.0.0.1 - - [08/Feb/2024:07:42:13 +0000] "GET /day9-spring-mvc1/do/go HTTP/1.1" 404 682
+127.0.0.1 - - [08/Feb/2024:07:42:18 +0000] "GET /day9-spring-mvc1/do/go HTTP/1.1" 404 682
+127.0.0.1 - - [08/Feb/2024:07:42:26 +0000] "GET /day9-spring-mvc1/do/go HTTP/1.1" 404 682
+127.0.0.1 - - [08/Feb/2024:07:42:28 +0000] "GET /day9-spring-mvc1/do/go HTTP/1.1" 404 682
+127.0.0.1 - - [08/Feb/2024:07:42:29 +0000] "GET /day9-spring-mvc1/do/go HTTP/1.1" 404 682
+127.0.0.1 - - [08/Feb/2024:07:42:30 +0000] "GET /day9-spring-mvc1/do/go HTTP/1.1" 404 682
+127.0.0.1 - - [08/Feb/2024:07:42:30 +0000] "GET /day9-spring-mvc1/do/go HTTP/1.1" 404 682

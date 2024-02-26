@@ -1,0 +1,5 @@
+package com.tcs.client.resource;
+
+public class HelloClientResource {
+
+}
